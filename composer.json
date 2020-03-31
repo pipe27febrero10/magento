@@ -11,6 +11,7 @@
         "sort-packages": true
     },
     "require": {
+        "magefan/module-blog": "^2.9",
         "magento/product-community-edition": "2.3.4",
         "mageplaza/magento-2-spanish-language-pack": "dev-master"
     },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d79cc250f3be4ed40c6c041c9b44012b",
+    "content-hash": "342fd49554558b810197d402cd048782",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -1874,6 +1874,97 @@
                 "Apache-2.0"
             ],
             "description": "Klarna Order Management Magento 2 Extension"
+        },
+        {
+            "name": "magefan/module-blog",
+            "version": "2.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magefan/module-blog.git",
+                "reference": "ef7307f34d61e6940e5eeb06ceb2219cb5ec9723"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magefan/module-blog/zipball/ef7307f34d61e6940e5eeb06ceb2219cb5ec9723",
+                "reference": "ef7307f34d61e6940e5eeb06ceb2219cb5ec9723",
+                "shasum": ""
+            },
+            "require": {
+                "magefan/module-community": ">=2.0.11",
+                "magefan/module-wysiwyg-advanced": ">=2.0.6"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magefan\\Blog\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Implements Blog functionality on Magento 2 store",
+            "time": "2020-03-14T12:53:33+00:00"
+        },
+        {
+            "name": "magefan/module-community",
+            "version": "2.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magefan/module-community.git",
+                "reference": "123558eb4f29d66cdf81a993c0fe3d55b515678f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magefan/module-community/zipball/123558eb4f29d66cdf81a993c0fe3d55b515678f",
+                "reference": "123558eb4f29d66cdf81a993c0fe3d55b515678f",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magefan\\Community\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2020-01-24T14:35:23+00:00"
+        },
+        {
+            "name": "magefan/module-wysiwyg-advanced",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magefan/module-wysiwyg-advanced.git",
+                "reference": "b2c7fc525848c39a8a43dbf8d82545f6c771c8c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magefan/module-wysiwyg-advanced/zipball/b2c7fc525848c39a8a43dbf8d82545f6c771c8c2",
+                "reference": "b2c7fc525848c39a8a43dbf8d82545f6c771c8c2",
+                "shasum": ""
+            },
+            "require": {
+                "magefan/module-community": ">=2.0.11"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magefan\\WysiwygAdvanced\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Extend TinyMCE 4 in Magento 2",
+            "time": "2020-01-25T11:54:57+00:00"
         },
         {
             "name": "magento/adobe-stock-integration",
